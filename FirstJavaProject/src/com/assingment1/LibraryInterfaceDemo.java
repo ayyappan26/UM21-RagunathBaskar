@@ -15,6 +15,7 @@ class KidUsers implements LibraryUser{
 	public void requestBook(String bookType){
 		if(bookType=="Kids"){
 			System.out.println("Book Issued Successfully,please return the book within 10 days");
+			System.out.println("________________________________________");
 		}
 		else{
 			System.out.println("Oops,you are allowed to take only kids books");

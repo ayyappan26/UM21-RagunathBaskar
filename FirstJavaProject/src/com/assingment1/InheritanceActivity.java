@@ -52,6 +52,7 @@ public class InheritanceActivity {
 		Trainee myTrainee2=new Trainee(29846,"Jack","Mumbai India",442085,45000);
 		myTrainee2.calculateSalary();
 		myTrainee2.calculateTransportAllowance();
+		System.out.println("hi..");
 		
 	}
 
